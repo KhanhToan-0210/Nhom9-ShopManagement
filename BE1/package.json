@@ -1,24 +1,29 @@
 {
-  "name": "shopmanagement",
+  "name": "be2",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "idex.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhanhToan-0210/Nhom9-ShopManagement.git"
+  },
+  "author": "ndt",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhanhToan-0210/Nhom9-ShopManagement/issues"
+  },
+  "homepage": "https://github.com/KhanhToan-0210/Nhom9-ShopManagement#readme",
   "description": "",
   "dependencies": {
-    "bcryptjs": "^3.0.3",
-    "cors": "^2.8.5",
+    "body-parser": "^2.2.1",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.15.3",
+    "nodemon": "^3.1.11",
     "sequelize": "^6.37.7"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.11"
   }
 }
